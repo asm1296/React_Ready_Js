@@ -1,0 +1,39 @@
+.Container{
+    display : grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    min-width: 300px;
+    min-height: 300px;
+    place-items: center;
+}
+
+.itemLabel{
+    justify-self: start;
+    align-self: center;
+    padding: 8px 12px;
+    margin-left: 360px;
+}
+
+.itemInput{
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+}
+
+.buttonBlock{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    background-color: rgba(8, 201, 201, 0.911);
+    border:0.5px solid rgba(0, 255, 255, 0.548);
+    border-color: rgba(0, 255, 255, 0.548);
+    width: 42%;
+}
+
+.buttonBlock:hover{
+    background-color: white;
+    color: rgba(0, 255, 255, 0.548);
+}

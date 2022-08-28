@@ -1,0 +1,79 @@
+.oneDiv {
+    position: absolute;
+    top: 0;
+   bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+   justify-content: center;
+   align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.secondDiv {
+    padding: 20;
+    background: #fff;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 300px;
+    margin: 1rem;
+    position: relative;
+    min-width:300px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    justify-self: center;
+}
+
+.itemLabel {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: start;
+    align-self: center;
+    padding: 14px 20px;
+}
+.itemInput {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    padding: 14px 20px;
+}
+
+.buttonBlock{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: center;
+    width: 30%;
+    background-color: rgba(8, 201, 201, 0.911);
+    color: white;
+    border:0.5px solid rgba(0, 255, 255, 0.548);
+    border-color: rgba(0, 255, 255, 0.548);
+    text-align: center;
+    padding: 8px 12px;
+    margin: 8px 12px;
+}
+.buttonBlock:hover{
+    background-color: white;
+    color: rgba(0, 255, 255, 0.548);
+}
+
+.addProduct {
+    padding: 8px 12px;
+    color: rgba(8, 201, 201, 0.911) ;
+}
+
+.close{
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  padding: 12px 16px;
+  opacity: 0.3;
+  transform: translate(0%, -50%);
+}
+
+.close:hover{
+    opacity: 1;
+}

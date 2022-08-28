@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: black;
+    margin-bottom: 12px;
+}
+
+.itemLogoTitle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.itemLogo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.itemTitle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+}
+
+.itemShopLogin{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.itemShop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.itemLogin {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.buttonBlock{
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: rgba(8, 201, 201, 0.911);
+    padding: 14px 28px;
+    border: 1px thin aqua;
+    border-color: rgba(8, 201, 201, 0.911);
+    text-align: center;
+}
+
+.buttonBlock:hover{
+    background-color: rgba(8, 201, 201, 0.911);
+    color: white;
+    border-color:white;
+}
+
+.orangeContainer {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.orangeSection {
+    max-width:400;
+    position: relative;
+}
